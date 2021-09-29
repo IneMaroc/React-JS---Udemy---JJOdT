@@ -1,0 +1,12 @@
+.searchbox {
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    &-buttons {
+        display: flex;
+        flex-direction: row;
+
+    }
+}

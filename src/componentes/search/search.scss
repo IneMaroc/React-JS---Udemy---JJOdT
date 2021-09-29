@@ -1,0 +1,16 @@
+.search {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    &--top {
+        justify-content: center;
+        align-items: center;
+    }
+    &--center {
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,61 @@
+[{
+    "title": "Frutilla",
+    "description": "fragaria, fresa",
+    "fulldescription": "La fresa tiene un alto contenido de fibra, vitamina C, antioxidantes, potasio, ácido fólico y minerales. Es una de las frutas con un número menor de calorías. El consumo de esta fruta ayuda a mantener la piel hidratada;",
+    "category": 1,
+    "stock": 11,
+    "price": 500,
+    "pictureUrl": "/images/frutilla.png",
+    "id":1
+},
+{
+    "title": "Pera",
+    "description": "pear, perejea, kuali ortayumma",
+    "fulldescription": "La pera es una fruta jugosa, carnosa y una de las más importantes producidas en las regiones templadas. Existen más de treinta variedades de peras, de diferentes colores, texturas y sabores.",
+    "category": 2,
+    "stock": 10,
+    "price": 500,
+    "pictureUrl": "/images/pera.png",
+    "id":2
+},
+{
+    "title": "Manzana",
+    "description": "apple, mela, poma",
+    "fulldescription": "La manzana es el fruto comestible de la especie Malus domestica, el manzano común. Es una fruta pomácea de forma redonda y sabor muy dulce, dependiendo de la variedad.",
+    "category": 3,
+    "stock": 20,
+    "price": 500,
+    "pictureUrl": "/images/manzana.png",
+    "id":3
+},
+{
+    "title": "Banana",
+    "description": "plátano,​ guineo maduro, banano",
+    "fulldescription": "Es un fruto con cualidades variables en tamaño, color y firmeza, alargado, generalmente curvado y carnoso, rico en almidón cubierto con una cáscara, que puede ser verde, amarilla, roja, púrpura o marrón cuando está madura.",
+    "category": 1,
+    "stock": 30,
+    "price": 500,
+    "pictureUrl": "/images/banana.png",
+    "id":4
+},
+{
+    "title": "Sandia",
+    "description": "sindria, patilla, aguamelón",
+    "fulldescription": "Especie de la familia Cucurbitaceae. Es originaria de África con una gran presencia y difusión en todo el mundo. Se cultiva de manera extendida por todo el mundo debido a su fruto, el cuál es un pepónide de enorme tamaño",
+    "category": 2,
+    "stock": 5,
+    "price": 500,
+    "pictureUrl": "/images/sandia.png",
+    "id":5
+},
+{
+    "title": "Kiwi",
+    "description": "DescripciónProducto 6",
+    "fulldescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sollicitudin leo turpis, in hendrerit eros egestas non. Donec finibus, leo ac interdum sodales, nulla dui vulputate nunc, sed posuere turpis massa nec arcu.",
+    "category": 3,
+    "stock": 15,
+    "price": 1000,
+    "pictureUrl": "/images/kiwi.png",
+    "id":6
+}
+]
