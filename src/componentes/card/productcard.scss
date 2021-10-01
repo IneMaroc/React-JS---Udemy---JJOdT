@@ -1,0 +1,10 @@
+@import "../../app.scss";
+
+.pCard {
+   width: 16em;
+   padding: 1em;
+   margin-top: 1em;
+   border-radius: 1em;
+   box-shadow: 5px 5px 15px rgba($green, .5);
+   background-color: $white;
+}

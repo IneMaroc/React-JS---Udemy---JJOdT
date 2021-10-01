@@ -10,18 +10,13 @@ export default function Search () {
     //const [userData, setUserData] = useState(data); para cuando se usa fetch
     const [results, setResults] = useState([]);
 
-
     //console.log(userData);
 
-    const [isAtTop, setIsAtTop] = useState(false);
-
     const handleCloseClick = () => {
-        setIsAtTop(false);
         setResults([]);
     }; 
     
     const handleSearchClick = (searchText) => {
-        setIsAtTop(true);
         if (data?.length) {
             const searchTextMinus = searchText.toLowerCase();
             const filteredData = data.filter((value) => {
@@ -38,8 +33,8 @@ export default function Search () {
     };
     console.log(results);
     return (
-        <div className={`search ${isAtTop ? "search--center" : "search--top"}`}>
-            <SearchBox onSearch={handleSearchClick} onClose={handleCloseClick}/>
+        <div >
+            <SearchBox className="search search--top" onSearch={handleSearchClick} onClose={handleCloseClick}/>
             <SearchResults results={results}/>
 
         </div>
