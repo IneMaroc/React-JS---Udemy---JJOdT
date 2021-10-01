@@ -17,17 +17,27 @@ export default function Search () {
     }; 
     
     const handleSearchClick = (searchText) => {
-        if (data?.length) {
+        if (data.length) {
             const searchTextMinus = searchText.toLowerCase();
-            const filteredData = data.filter((value) => {
-                return (
-                    value.title.toLowerCase().includes(searchTextMinus) ||
-                    value.description.toLowerCase().includes(searchTextMinus) ||
-                    value.fulldescription.toLowerCase().includes(searchTextMinus)
-                )
 
-            })
-            setResults(filteredData);
+            if(searchTextMinus.trim().length !== 0) {
+
+                const filteredData = data.filter((value) => {
+                    return (
+                        value.title.toLowerCase().includes(searchTextMinus) ||
+                        value.description.toLowerCase().includes(searchTextMinus) ||
+                        value.fulldescription.toLowerCase().includes(searchTextMinus)
+                    )
+    
+                })
+                
+                {filteredData.length >= 1? setResults(filteredData) : alert(`No tenemos ${searchText}`)}
+                
+
+            } else {
+                setResults(data);
+            }
+            
         }
 
     };
